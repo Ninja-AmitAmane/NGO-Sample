@@ -1,0 +1,43 @@
+fieldset
+{
+	height:300px;
+	width: 300px;
+/*	border-top-left-radius: 50px;*/
+border-radius: 70px;
+/*	border-bottom-right-radius: 50px;*/
+border-radius: 70px;
+
+
+
+}
+.icn
+{
+	height: 20px;
+	position: relative;
+	left: 50%;
+	margin-bottom: 0px;
+
+}
+.inp
+{
+	position: relative;
+	left: 30px;
+}
+.inp2
+{
+	position: relative;
+	left: 15px;
+}
+.d5
+{
+	margin: 20px;
+	position: relative;
+
+/*	top: px;*/
+}
+.d5 h4
+{
+	margin-top: 1px;
+	text-align: center;
+	margin-left: 10px;
+}

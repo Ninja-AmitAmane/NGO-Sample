@@ -1,0 +1,430 @@
+#mnav
+{
+	
+		background-color: rgb(238,248,253,.8);
+		height: 70px;
+		width: 100%;
+		position: fixed;
+		padding-left:10%;
+		top: 0px;
+		left:0px;
+		align-content: center;
+		border-style:solid;
+		border-color: lightgrey;
+		z-index: 2;
+
+
+
+}
+#navmenu
+{
+	padding-left: 5px;
+	display: flex;
+	list-style-type: none;
+	position: relative;
+	margin-left: 3px;
+	color: black;
+	align-content: center;
+	padding-top: 8px;
+	
+}
+.opt
+{		
+			position: relative;
+			right:-2%;
+			margin-left: 5px;
+			font-size: 20px;
+			font-weight: bolder;
+			text-decoration:none;
+			padding-left: 30px;
+		
+}
+.opt a
+{
+	
+	text-decoration: none;
+	color: black;
+}
+.opt a:hover
+{	
+	color: red;
+	background-color:lightgrey;
+	background-size: 30px;
+
+
+}
+
+.donate
+{
+
+	height:50px;
+	width: 100px;
+	border-color: orangered;
+	background-color:white;
+	font-family: sans-serif;
+	color:orangered;
+	border-radius: 10px;
+	position: relative;
+	top: -14px;
+
+
+}
+.signin
+{
+	height:40px;
+	width: 100px;
+	position: relative;
+	top: -9px;
+	left: -14px;
+	border-radius: 10px;
+	background-color: #0065ff;
+	border-color: #0065ff;
+	color: white;
+
+
+}
+.signup
+{
+	height:40px;
+	width: 100px;
+	position: relative;
+	top: -9px;
+	left: -13px;
+	border-radius: 10px;
+	background-color: #36b37e;
+	border-color: #36b37e;
+
+}
+
+.logo
+{
+	position: relative;
+	right: 80px;
+	top: -19px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+#nav1
+{
+	
+	position: relative;
+	z-index: -1;
+	top: 80px;
+	left:0px;
+	height: 400px;
+	width: 100%;
+}
+#chimg
+{
+	position: relative;
+	left: 0px;
+	width: 100%;
+	height:400px;
+	background-attachment: fixed;
+	z-index: -1;
+	
+
+}
+.slog
+{
+	position: relative;
+	top:-300px;
+	left: 10%;
+	z-index: 1;
+	font-language-override: inherit;
+
+}
+#sl1
+{
+	background-color:rgba(255,165,0,.8);
+	width:300px;
+
+	padding: 8px;
+}
+#sl2
+{
+	background-color: rgba(38,47,54,.8);
+	width: 320px;
+	padding: 8px;
+	color: white;
+	
+	
+}
+#sl3
+{
+	background-color: rgba(255,255,255,.8);
+	width: 410px;
+	padding: 8px;
+	
+
+}
+#sl4
+{
+	color: white;
+
+}
+/*MISSION PAGE CSS*/
+
+.mission
+{
+	margin-top:5px;
+}
+.mission h1
+{
+	font-family: cursive;
+	font-size: 52px ;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.mteam
+{
+	display: flex;
+	text-align: center;
+	justify-content:center;
+	padding: 2px;
+
+}
+.mtpc
+{
+	background-color: white;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300;
+	height: 250px;
+	line-height: 20px;
+	color: #8e8b8b;
+	position: relative ;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	
+	border: solid black;
+
+	
+
+
+}
+.mtpc:hover
+{
+	background-color: lightgrey;
+	color: orangered;
+	cursor: pointer;
+}
+.mname
+{
+	color: orangered;	
+	font-size: 30px;
+	margin-top: 20px;
+	font-family:;
+	
+
+}
+
+.mimg
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 3px 2px 5px 2px black;
+	background-color: whitesmoke;
+
+}
+.mtpc p
+{
+	color: black;
+	font-family:sans-serif;
+
+}
+.titl
+{
+	text-decoration-line:none ;
+	color: black;
+
+}
+.titl:hover
+{
+	color: orangered;
+
+}
+/*History CSS*/
+#history h2
+{
+	font-family: cursive;
+	text-shadow: 2px 2px 5px;
+}
+#history
+{
+	position: relative;
+	top:20px;
+	font-size: 20px;
+	font-family: cursive;
+	border-bottom: solid black;
+}
+#history h2
+{
+	font-size: 50px;
+}
+#memb
+{
+	display: flex;
+	align-content: center;
+
+}
+.avtr
+{
+	height:200px;
+	
+}
+.profile
+{
+	position: relative;
+	left: 10%;
+	margin: 5%;
+	align-content: center;
+	text-align: center;
+}
+/*           CONTACT US CSS          */
+
+.contact
+{
+	display: flex;
+/*	border-bottom: solid black;*/
+}
+.contact img
+{
+	height: 200px;
+	box-align: center;
+	border-radius: 50%;
+}
+.cont
+{
+	position: relative;
+	height: 300px;
+	
+	left: 6%;
+	margin: 40px;
+	border: solid;
+	align-content: center;
+	align-items: center;
+}
+.cont h4
+{
+	text-align: center  ;t
+}
+.ct
+{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 52px;
+	font-family: cursive;
+}
+
+/*           FOOTER CSS          */
+
+#ftr
+{
+	display: flex;
+
+ 	background-color: rgba(23,43,77,255);
+
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-origin: border-box;
+	background-attachment:fixed;
+	height: 350px;
+	align-items: center;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+
+}
+.cnt
+{
+	margin:10%;
+	position: relative;
+	top: -20px;
+
+
+}
+.cntl
+{
+	position: relative;
+	top: 10px;
+	
+	
+
+}
+.li
+{
+	list-style-type: none;
+	line-height: 2;
+	font-size: 20px;
+	color: white;
+
+}
+.smicon
+{
+	height: 18px;
+	margin-right: 10px;
+	padding-top: 4px;
+	border-radius: 70%;
+	box-shadow: 1px 1px 1px ;
+}
+
+.social
+{
+	height: 40px;
+	margin-right: 10px;
+	padding-top: 4px;
+	border-radius: 70%;
+
+}
+#footer
+{
+	background-color: black;
+	position: relative;
+	top:-20px;
+	height: 40px;
+	align-items: center;
+	display: flex;
+}
+.list
+{
+	position: relative;
+	display: flex;
+	color: white;
+	list-style-type: none;
+	margin-left: 40%;
+
+}
+
+.list li
+{
+	position: relative;
+
+	margin-left: 10px;
+	font-size: 12px;
+	
+
+}
+.copy
+{
+	position: relative;
+	left: 30px;
+	font-size: 10px;
+	color: white;
+}
+.list a
+{
+	text-decoration: none;
+	text-decoration-style: none;
+	color: white;
+}
+.li a
+{
+	text-decoration: none;
+	text-decoration-style: none;
+	color: white;
+
+}
+
